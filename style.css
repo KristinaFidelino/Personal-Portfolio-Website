@@ -1,0 +1,292 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+/*index*/
+#header{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+.navbar-nav li{
+    padding: 0 10px;
+}
+.navbar-nav li a{
+    float: right;
+    text-align: left;
+}
+.navbar-toggler-icon{
+    font-size: 20px;
+}
+
+/*footer in index*/
+.footer{
+    width: 100%;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.footer h4{
+    margin-bottom: 25px;
+    margin-top: 15px;
+    font-weight: 600;
+}
+.icons .fa{
+    color: #8B0000;
+    font-size: 23px;
+    width: 30px;
+    height: 17px;
+    margin: 0 13px;
+    padding: 10px 0;
+    border-radius: 30%;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+/*courasel index*/
+.d-block{
+    margin-left: 25%;
+}
+.headcar .btn-primary{
+    box-shadow: none;
+    padding: 8px 25px;
+    border: none;
+    border-radius: 20px;
+    background-image: linear-gradient(to right, #FB5283, #FF3527);
+}
+.carousel-caption h3{
+    color: #a5a4a4;
+}
+.carousel-caption p{
+    color: #8B0000;
+}
+
+/*services /courses  index*/
+#course{
+    padding: 70px 0;
+}
+.course-img{
+    width: 200px;
+    margin-top: 20px;
+}
+.courses{
+    padding: 20px;
+}
+.courses h3{
+    padding: 3px;
+    margin-top: 25px;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+#course p{
+    text-indent: 20px;
+    text-align: justify;
+}
+.title::before{
+    content: '';
+    background-image: linear-gradient(to right, #FB5283, #FF3527);
+    height: 5px;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    transform: translateY(63px);
+}
+.title::after{
+    content: '';
+    background-image: linear-gradient(to right, #FB5283, #FF3527);
+    height: 10px;
+    width: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    display: block;
+    transform: translateY(8px);
+}
+#course .btn-primary{
+    box-shadow: none;
+    padding: 8px 25px;
+    border: none;
+    border-radius: 20px;
+    background-image: linear-gradient(to right, #FB5283, #FF3527);
+}
+
+
+/*about me */
+#about-me{
+    background: #f8f9fa;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+.about-title{
+    font-size: 30px;
+    font-weight: 400px;
+    padding-top: 5%;
+    margin-top: 10px;
+}
+.col-md-6 p{
+    text-align: justify;
+    text-indent: 5%;
+}
+#about-me p{
+    line-height: 30px;
+}
+.img-fluid{
+    padding-top: 5%;
+}
+
+
+/*skills me */
+.progress-title{
+    width: 100%;
+    height: auto;
+}
+.progress-title h3{
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+.progress{
+    height: 20px;
+    background: #8B0000;
+    border-radius: 20px;
+    border: 1px solid #000;
+    box-shadow: 0 2px 2px #4f4c4c;
+    margin-bottom: 10px;
+    overflow: visible;
+    position: relative;
+}
+
+.progress .progress-bar{
+    border-radius: 20px;
+    border:  1px solid #000;
+    animation: animate-positive 2s;
+}
+
+.progress .progress-value{
+    width: 65px;
+    height: 25px;
+    line-height: 25px;
+    color: #000;
+    font-size: 15px;
+    font-weight: 600;
+    border-top: none;
+    position: absolute;
+    right: 10px;
+}
+@-webkit-keyframes animate-positive{
+    0%{
+        width: 0;
+    }
+}
+@keyframes animate-positive{
+    0%{
+        width: 0;
+    }
+}
+.skill-img{
+    width: 200px;
+    margin-top: 10px;
+    padding-left: 20px;
+}
+
+/*project */
+.message-box{
+    border: 1px solid #ccc;  
+    padding: 10px 10px;
+    width:50%;
+    margin:0 auto;
+    text-align: center;
+}
+.message-box h3{
+    font-size: 20px;
+}
+.form-floating button{
+    margin-top: 10px;
+}
+
+.message-box .btn-primary{
+    box-shadow: none;
+    padding: 8px 25px;
+    border: none;
+    border-radius: 20px;
+    background-image: linear-gradient(to right, #FB5283, #FF3527);
+}
+/*project proj-ez */
+#proj-ez{
+    background: #f8f9fa;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+.img-fluid1{
+    padding-top: 5%;
+    width: 65%;
+}
+/*project proj-idc */ 
+.skill-img1{
+    width: 460px;
+    margin-top: 10px;
+    padding-left: 20px;
+}
+/*contact*/
+.location{
+    width: 80%;
+    margin: auto;
+    padding: 80px 0;
+}
+.location iframe{
+    width: 100%;
+}
+.contact-us{
+    width: 80%;
+    margin: auto;
+}
+.con-col{
+    flex-basis: 48%;
+    margin-bottom: 30px;
+}
+.con-col div{
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+.con-col div .fa{
+    font-size: 26px;
+    color:#FF3527;
+    margin: 10px;
+    margin-right: 30px;
+}
+.con-col div p{
+    padding: 0;
+}
+.con-col div h5{
+    font-size: 18px;
+    margin-bottom: 5px;
+    color: #555;
+    font-weight: 400;
+}
+
+.message-box1{
+    flex-basis: 48%;
+    margin-bottom: 30px;
+    border: 1px solid #ccc;  
+    padding: 10px 10px;
+    width:50%;
+    margin:0 auto;
+    text-align: center;
+}
+.message-box1 h3{
+    font-size: 20px;
+}
+
+.message-box1 .btn-primary{
+    box-shadow: none;
+    padding: 8px 25px;
+    border: none;
+    border-radius: 20px;
+    background-image: linear-gradient(to right, #FB5283, #FF3527);
+}
